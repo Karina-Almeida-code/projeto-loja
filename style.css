@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: beige;
+
+}
+
+.banner {
+
+    height: 90vh;
+    width: 100%;
+    background-image: url(./img/photo-loja.avif) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+   
+
+}
+
+
+.texto {
+    width: 80%;
+    height: 30%;
+    border-radius: 20px;
+    padding: 40px;
+    color: rgb(14, 14, 14);
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left:10% ;
+}
+
+h1{
+    font-size: 35px;
+    color: rgb(253, 252, 252);
+}
+.titulo-principal{
+    font-size: 70px;
+   word-spacing: 10px;
+   letter-spacing: 2px;
+   color:  rgba(255, 255, 255, 0.8);
+}
+
+p{
+    font-size: 20px;
+    font-weight: 700;
+   margin-left: 20px;
+   color: rgba(255, 255, 255, 0.8);
+   
+   
+}
+
+a{
+   color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+.botao{
+    display: inline-block;
+    background-color: #02BA26;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px 0 10px 20px;
+    font-weight: bolder;
+    font-size: 15px;
+
+   
+}
+
+.botao:hover{
+    opacity: 0.8;
+}
+
+a:hover{
+    opacity: 0.6;
+}
+
+a:active{
+    color:  #02BA26;
+}
